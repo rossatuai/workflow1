@@ -11,7 +11,7 @@ jobs:
       - name: setup python
         uses: actions/setup-python@v6
         with:
-            python-version: 3.312
+            python-version: 3.12
         
       - name: Print today's date
         run: date
