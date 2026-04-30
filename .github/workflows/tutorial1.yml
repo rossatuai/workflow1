@@ -16,6 +16,9 @@ jobs:
       - name: check version of python
         run: python --version
 
+      - name: check version of pip
+        run: pip --version
+
       - name: Print today's date
         run: date
   job2:
